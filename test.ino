@@ -27,8 +27,6 @@ void loop() {
   int val = digitalRead(3);
   int val_0 = digitalRead(7);
 
-
-  
   if(val_0 == LOW){
     press +=1;
     delay(400);
